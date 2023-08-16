@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+table,td,th {
+  border:1px solid black;
+}
+</style>
+<body>
+
+
+<form>
+<table>
+	<tr>
+	<th colspan="2">Registration Form</th>
+   	</tr>
+	
+  <tr>
+    <td><label for="studentName">Student Name</label></td>
+    <td><input type="text" id="studentName" name="studentName" required></td>
+  </tr>
+
+   <tr>
+    <td><label for="fatherName">Father's Name</label></td>
+    <td><input type="text" id="fatherName" name="fatherName" required></td>
+  </tr>
+
+<tr>
+    <td><label for="motherName">Mother's Name</label></td>
+    <td><input type="text" id="motherName" name="motherName" required></td>
+</tr>
+<tr>
+    <td><label for="dob">Date of Birth</label></td>
+    <td><input type="date" id="dob" name="dob" required></td>
+</tr>
+<tr>
+    <td><label>Gender</label></td>
+    <td><input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female" required>
+    <label for="female">Female</label></td>
+</tr>
+<tr>
+    <td><label for="Mobile No">Mobile no</label></td>
+    <td><input type="number" id="mobileno" name="mobileno" required></td>
+</tr>
+
+<tr>
+    <td><label for="address">Address</label></td>
+    <td><textarea id="address" name="address" rows="4" required></textarea></td>
+</tr>
+
+<tr>    
+    <td><label for="state">State</label></td>
+    <td><input type="text" id="state" name="state" required></td>
+</tr>
+
+</tr>
+    <td><label for="city">City</label></td>
+    <td><input type="text" id="city" name="city" required></td>
+</tr>
+
+<tr>
+    <td>       </td>
+    <td><input type="submit" value="Submit"></td>
+</table>
+</form>
+</body>
+</html>
